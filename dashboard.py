@@ -50,7 +50,7 @@ min_date = day_df["dteday"].min()
 max_date = day_df["dteday"].max()
 
 with st.sidebar:
-    st.markdown("## 🔎 Filter Data")
+    st.markdown("## Filter Data")
     st.caption("Sesuaikan tampilan data sesuai kebutuhan analisis")
 
     start_date, end_date = st.date_input(
